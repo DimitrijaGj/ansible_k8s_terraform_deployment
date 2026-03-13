@@ -1,0 +1,78 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+terraform.tfvars
+terraform.tfvars.json
+secrets.auto.tfvars
+secrets.auto.tfvars.json
+*.tfplan
+*.tfplan.json
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+terraform.rc
+.terraform/
+.terraform.lock.hcl
+
+# Ansible secrets/vault
+ansible/vault-password
+ansible/vault-pass
+ansible/secrets.yml
+ansible/*.vault
+ansible/group_vars/all/vault.yml
+ansible/host_vars/*/vault.yml
+ansible/roles/**/vars/secrets.yml
+ansible/roles/**/vars/vault.yml
+ansible/roles/**/defaults/secrets.yml
+
+# Environment specific
+.env
+.env.*
+*.env
+.ansible/
+*.pem
+*.key
+*.crt
+*.priv
+id_rsa
+id_rsa*
+*.p12
+*.pfx
+*.keystore
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+
+# Python virtual environments
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+
+# SSH keys and config
+*.pem
+*.key
+*.p12
+.ssh/
+config
+known_hosts

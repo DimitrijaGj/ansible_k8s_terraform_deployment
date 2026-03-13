@@ -1,0 +1,6 @@
+---
+- name: Configure VMs with Docker and Kubernetes packages
+  hosts: vms
+  become: true
+  roles:
+    - docker_k8s
